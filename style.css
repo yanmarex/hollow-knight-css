@@ -212,3 +212,16 @@
     left: -1px;
     border-radius: 50%;
 }
+.mouth {
+    position: absolute;
+    width: 51px;
+    height: 40px;
+    background-color: transparent;
+    left: 160px;
+    top: 220px;
+    transform: skewY(2deg);
+    z-index: 3;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 19px;
+    border: black 3px solid;
+}
