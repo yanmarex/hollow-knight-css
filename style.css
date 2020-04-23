@@ -267,7 +267,7 @@ body {
     height: 13px;
     background-color: whitesmoke;
     top: 88px;
-    left: 108px;
+    left: 109px;
     border-radius: 25px;
     transform: rotate(-50deg);
 }
@@ -284,4 +284,100 @@ body {
     border-bottom-left-radius: 30px;
     transform: skew(-11deg,-1deg);
     border-bottom-right-radius: 13px;
+}
+/*CAPE STYLE*/
+.cape {
+    position: absolute;
+    width: 100px;
+    height: 192px;
+    background-color: black;
+    border-radius: 50%;
+    top: 230px;
+    left: 67px;
+    transform: rotate(34deg);
+    z-index: 1;
+}
+/*.cape::before {
+    content: " ";
+    position: absolute;
+    width: 49%;
+    height: 77%;
+    background-color: #8a2be2e8;
+    top: 113px;
+    left: -18px;
+    border-radius: 31%;
+    transform: rotate(-24deg);
+}
+*/
+/*SWORD STYLE*/
+.sword {
+    position: absolute;
+    width: 43px;
+    height: 41px;
+    background-color: #953b20;
+    top: 284px;
+    left: 37px;
+    transform: skewY(27deg) rotate(43deg);
+    z-index: 0;
+}
+.sword-2 {
+    position: absolute;
+    width: 48px;
+    height: 23px;
+    background-color: #953b20;
+    top: 256px;
+    left: 7px;
+    transform: skewY(27deg) rotate(43deg);
+    z-index: 0;
+}
+
+.sword-3 {
+    position: absolute;
+    width: 53px;
+    height: 7px;
+    background-color: #952520;
+    top: 311px;
+    left: 22px;
+    transform: skewY(19deg) rotate(43deg);
+    z-index: 0;
+}
+.sword-4 {
+    position: absolute;
+    width: 7px;
+    height: 8px;
+    background-color: #9d6f6d;
+    top: 284px;
+    left: 29px;
+    transform: skew(-21deg, -6deg) rotate(-79deg);
+    z-index: 0;
+}
+.sword-5 {
+    position: absolute;
+    width: 8px;
+    height: 9px;
+    background-color: #9d6f6d;
+    top: 270px;
+    left: 48px;
+    transform: skew(-21deg, -16deg) rotate(-32deg);
+    z-index: 0;
+}
+.sword-6 {
+    position: absolute;
+    width: 7px;
+    height: 22px;
+    background-color: #714a3e;
+    top: 233px;
+    left: 10.5px;
+    transform: skewY(9deg) rotate(54deg);
+    z-index: 1;
+}
+.sword-7 {
+    position: absolute;
+    width: 7.5px;
+    height: 45px;
+    background-color: #9d6f6d;
+    top: 243px;
+    left: 17px;
+    transform: skewY(13deg) rotate(-39deg);
+    z-index: 5;
 }
