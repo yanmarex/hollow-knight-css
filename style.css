@@ -271,3 +271,17 @@ body {
     border-radius: 25px;
     transform: rotate(-50deg);
 }
+.head-shadow {
+    position: absolute;
+    width: 156px;
+    height: 114px;
+    background-color: #929b983d;
+    top: 146px;
+    left: 105px;
+    z-index: 5;
+    clip-path: polygon(4.94% 2.27%, 81.03% 13.96%, 109.48% 107.97%, -14px 92.83%);
+    border-top-left-radius: 36px;
+    border-bottom-left-radius: 30px;
+    transform: skew(-11deg,-1deg);
+    border-bottom-right-radius: 13px;
+}
