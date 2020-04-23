@@ -10,7 +10,7 @@
     margin-top: 30px;
     width: 320px;
     height: 480px;
-    background: peachpuff;
+    background: blueviolet;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
@@ -23,6 +23,7 @@
     width: 100%;
     height: 100%;
 }
+/*HEAD STYLES*/
 .head {
     position: relative;
     left: 55px;
@@ -78,4 +79,94 @@
     top: 238.00005px;
     transform: rotate(263deg);
     z-index: 2;
+}
+/*LEFT HORN STYLES*/
+.left-horn {
+    position: absolute;
+    width: 56px;
+    height: 22px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    left: 211px;
+    top: 122px;
+    transform: rotate(116deg);
+    z-index: 3;
+}
+.left-horn-2 {
+    position: absolute;
+    width: 44px;
+    height: 25px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    left: 218px;
+    top: 92px;
+    transform: rotate(66deg);
+    z-index: 3;
+}
+.left-horn-3 {
+    position: absolute;
+    width: 54px;
+    height: 13px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    left: 192px;
+    top: 66px;
+    transform: rotate(66deg);
+    z-index: 3;
+}
+.left-horn-4 {
+    position: absolute;
+    width: 67px;
+    height: 10px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    left: 209px;
+    top: 85px;
+    transform: rotate(66deg);
+    z-index: 3;
+}
+/*EYES STYLES*/
+
+/*right eye styles*/
+.right-eye {
+    position: absolute;
+    width: 37px;
+    height: 48px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    left: 200px;
+    top: 156px;
+    transform: skewY(8deg);
+    z-index: 4;
+}
+.right-eye::before {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-color: whitesmoke;
+    top: -6px;
+    left: 0px;
+}
+/*eyesore styles*/
+.eyesore {
+    position: absolute;
+    width: 36px;
+    height: 45px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    left: 202px;
+    top: 166px;
+    transform: skewY(14deg);
+    z-index: 3;
+}
+.eyesore::before {
+    content: " ";
+    position: absolute;
+    width: 109%;
+    height: 100%;
+    background-color: whitesmoke;
+    top: -7px;
+    left: -2px;
+    border-radius: 50%;
 }
